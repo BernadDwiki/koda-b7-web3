@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 200vh
+}
+
+body{
+    height: 200vh
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.navBar{
+    background: burlywood;
+    top: 0px;
+    padding: 20px;
+}
+
+.kontenNav{
+    padding: 10px;
+}
+
+.kontenNav a {
+    margin-right: 20px;
+}
+
+section{
+    border: 2px solid black;
+    display: flex;
+}
+
+section div{
+    border: 2px solid black;
+    display: flex;
+    flex-basis: 100px;
+    flex-grow: 1;
+    height: 50px;
+}
+
+section div:nth-child(2) {
+    flex-grow: 2;
+}
